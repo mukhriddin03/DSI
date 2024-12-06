@@ -1,0 +1,42 @@
+header {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.header .nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-items .nav-item {
+    list-style: none;
+}
+
+.nav-items .nav-item a{
+    font-family: Roboto;
+    font-size: 18px;
+    transition: all .7s ease;
+}
+
+.nav-items .nav-item a:hover {
+    color: #EE4248;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icons .nav-icon {
+    font-size: 18px;
+    transition: all .7s ease;
+}
+
+.nav-icons .nav-icon:hover {
+    color: #EE4248;
+}
